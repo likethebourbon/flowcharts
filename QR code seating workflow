@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net" modified="2021-02-13T01:04:22.417Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Safari/537.36" etag="T_sPkMJFles3rEG8Ay3v" version="14.3.1" type="github">
+  <diagram id="ELSLKBek0jEsgU3tl6kT" name="Page-1">
+    <mxGraphModel dx="1298" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kE-aGeFutu2w6D1lVtd--12" value="QR Code Seating Project" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="200" width="640" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--23" value="Data Ingestion" style="swimlane;html=1;startSize=20;horizontal=0;" parent="kE-aGeFutu2w6D1lVtd--12" vertex="1">
+          <mxGeometry x="20" width="620" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--30" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="kE-aGeFutu2w6D1lVtd--23" source="kE-aGeFutu2w6D1lVtd--26" target="kE-aGeFutu2w6D1lVtd--28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="50" />
+              <mxPoint x="60" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--26" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;Formstack forms one for each QR code&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:36}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Formstack forms &lt;br&gt;one for each QR code&lt;/span&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="kE-aGeFutu2w6D1lVtd--23" vertex="1">
+          <mxGeometry x="80" y="20" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="kE-aGeFutu2w6D1lVtd--23" source="kE-aGeFutu2w6D1lVtd--27" target="kE-aGeFutu2w6D1lVtd--28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="50" />
+              <mxPoint x="580" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--27" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;Formstack forms one for each QR code&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:36}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Formstack forms &lt;br&gt;one for each QR code&lt;/span&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="kE-aGeFutu2w6D1lVtd--23" vertex="1">
+          <mxGeometry x="390" y="20" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--28" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;Gather raw data with a Scrapy web crawler&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:41}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Gather raw data with a&lt;br&gt;Scrapy web crawler&lt;/span&gt;&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="kE-aGeFutu2w6D1lVtd--23" vertex="1">
+          <mxGeometry x="205" y="110" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--13" value="Data Processing" style="swimlane;html=1;startSize=20;horizontal=0;" parent="kE-aGeFutu2w6D1lVtd--12" vertex="1">
+          <mxGeometry x="20" y="190" width="620" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--33" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;Aggregate form responses by room and time with Pandas&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:53}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Aggregate form responses by room and time with Pandas&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kE-aGeFutu2w6D1lVtd--13" vertex="1">
+          <mxGeometry x="220" y="35" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--14" value="Data Storage" style="swimlane;html=1;startSize=20;horizontal=0;" parent="kE-aGeFutu2w6D1lVtd--12" vertex="1">
+          <mxGeometry x="20" y="360" width="620" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--35" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;Store processed data in SQLite database&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:39}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Store processed data in SQLite database&lt;/span&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="kE-aGeFutu2w6D1lVtd--14" vertex="1">
+          <mxGeometry x="235" y="30" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="kE-aGeFutu2w6D1lVtd--12" source="kE-aGeFutu2w6D1lVtd--28" target="kE-aGeFutu2w6D1lVtd--33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="kE-aGeFutu2w6D1lVtd--12" source="kE-aGeFutu2w6D1lVtd--33" target="kE-aGeFutu2w6D1lVtd--35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--15" value="Outputs" style="swimlane;html=1;startSize=20;horizontal=0;" parent="kE-aGeFutu2w6D1lVtd--12" vertex="1">
+          <mxGeometry x="20" y="530" width="620" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--39" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;Send regular emails to specified professors with Google API&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:59}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Send regular emails to specified professors with Google API&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kE-aGeFutu2w6D1lVtd--15" vertex="1">
+          <mxGeometry x="60" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--40" value="&lt;span data-lucid-type=&quot;application/vnd.lucid.text&quot; data-lucid-content=&quot;{&amp;#34;t&amp;#34;:&amp;#34;Examine trends over the course of the semester with Prophet&amp;#34;,&amp;#34;m&amp;#34;:[{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;a&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;center&amp;#34;},{&amp;#34;s&amp;#34;:0,&amp;#34;n&amp;#34;:&amp;#34;c&amp;#34;,&amp;#34;v&amp;#34;:&amp;#34;333333ff&amp;#34;,&amp;#34;e&amp;#34;:59}]}&quot;&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51)&quot;&gt;Examine trends over the course of the semester with Prophet&lt;/span&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="kE-aGeFutu2w6D1lVtd--15" vertex="1">
+          <mxGeometry x="380" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="kE-aGeFutu2w6D1lVtd--12" source="kE-aGeFutu2w6D1lVtd--35" target="kE-aGeFutu2w6D1lVtd--39" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="520" />
+              <mxPoint x="170" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kE-aGeFutu2w6D1lVtd--42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="kE-aGeFutu2w6D1lVtd--12" source="kE-aGeFutu2w6D1lVtd--35" target="kE-aGeFutu2w6D1lVtd--40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="520" />
+              <mxPoint x="490" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
