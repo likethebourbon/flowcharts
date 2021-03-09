@@ -1,1 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T20:50:38.449Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Safari/537.36" version="14.4.2" etag="8sS5S0On4SRXMQgN3ULO" type="github"><diagram id="3C4EwJ_24LU1KdxjqPTO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-09T21:24:27.148Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.185 Safari/537.36" etag="9io5gtObEVbnVwY1QNPE" version="14.4.2" type="github">
+  <diagram id="3C4EwJ_24LU1KdxjqPTO" name="Page-1">
+    <mxGraphModel dx="1298" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wuhLeca19nofehrGJ6O2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=30;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-1" target="wuhLeca19nofehrGJ6O2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-1" value="Load scans table,&lt;br&gt;set &#39;timestamp&#39; dtype&lt;br&gt;to datetime" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-2" target="wuhLeca19nofehrGJ6O2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-2" value="Append weekday&lt;br&gt;column" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-5" target="wuhLeca19nofehrGJ6O2-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-5" value="Append room_id&lt;br&gt;column" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-7" target="wuhLeca19nofehrGJ6O2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-7" value="Load courses table" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeColor=none;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-8" target="wuhLeca19nofehrGJ6O2-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="310" />
+              <mxPoint x="130" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-8" value="Append adj_start_time column based on timedelta" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-10" target="wuhLeca19nofehrGJ6O2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-10" value="Append course_id column" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-15" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=20;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-14" target="wuhLeca19nofehrGJ6O2-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-14" value="Load [&#39;id&#39;, &#39;room_id&#39;]&lt;br&gt;from seats table" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-16" target="wuhLeca19nofehrGJ6O2-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-16" value="Group dataframe by course_id and date, agg nunique net_ids" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-19" target="wuhLeca19nofehrGJ6O2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-19" value="Filter dates to include only the past week, return dataframe as dict" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-23" value="Email each date/scan counts to each instructor" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wuhLeca19nofehrGJ6O2-25" target="wuhLeca19nofehrGJ6O2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuhLeca19nofehrGJ6O2-25" value="Load courses table&lt;br&gt;" style="html=1;dashed=0;whitespace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="250" y="600" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
